@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(95, 95, 95);
+    text-align: center;
+    align-items: center;
+    /* margin: 50px ; */
+    font-family: "Jersey 15", sans-serif;
+    background-image: linear-gradient(140deg,#c9def4 0%,#f5ccd4 50%,#b8a4c9 75%);
+  }
+
+  h1 {
+    color: #ea5753;
+    margin: 50px;
+    /* display: inline-block; */
+  }
+  p {
+    color: #f9035e;
+    font-size: 22px;
+    font-weight: 900;
+    /* display:inline-block */
+  }
+  a:hover,
+  a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    border: dotted;
+    border-color: bisque;
+  }
+  a:hover {
+    color:black;
+    border-color: darksalmon;
+    border-radius: 10px;
+  }

@@ -1,0 +1,35 @@
+h1 {
+  font-size: 48px;
+}
+ul {
+  color: rgb(9, 9, 9);
+  list-style-type: none;
+  margin: 36px auto 0 auto;
+}
+li {
+  font-size: 25px;
+  border: 1px dashed;
+  display: flexbox;
+  padding: 20px;
+  margin: 25px;
+  background-color: lightsalmon;
+  border-radius: 50px;
+  
+}
+li > p {
+  color: rgb(0, 0, 0);
+}
+header > p {
+  color: blue;
+}
+.list-item {
+  border: 2px dotted rebeccapurple;
+}
+#goal-description {
+  color: rgb(179, 57, 0);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
