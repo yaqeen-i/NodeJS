@@ -16,6 +16,7 @@ body {
     color: #f9035e;
     font-size: 22px;
     font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
     /* display:inline-block */
   }
   a:hover,
@@ -25,6 +26,7 @@ body {
     padding: 10px;
     border: dotted;
     border-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
   }
   a:hover {
     color:black;

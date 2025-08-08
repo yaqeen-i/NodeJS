@@ -6,6 +6,10 @@ ul {
   list-style-type: none;
   margin: 36px auto 0 auto;
 }
+ol {
+  color: rgb(250, 110, 9);
+  /* list-style: none; */
+}
 li {
   font-size: 25px;
   border: 1px dashed;
@@ -14,10 +18,11 @@ li {
   margin: 25px;
   background-color: lightsalmon;
   border-radius: 50px;
-  
+  /* list-style: square;
+  list-style: none; */
 }
 li > p {
-  color: rgb(0, 0, 0);
+  color: rgb(137, 23, 23);
 }
 header > p {
   color: blue;
