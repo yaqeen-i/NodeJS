@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8" />
     <title>NOOODE </title>
-    <script>
-        let message = "Hello, Node.js!";
-        console.log(message);
-        document.addEventListener("DOMContentLoaded", function() {
-            const body = document.querySelector("body");
-            const greeting = document.createElement("h6");
-            greeting.textContent = message;
-            body.appendChild(greeting);
-        });
-            alert("This is a Node.js alert!");
+    <script src="scripts/app.js" defer>
+        // defer attribute ensures that the script is executed after the document has been parsed
+        // This is where you can add your JavaScript code
+        // For example, you can manipulate the DOM or add event listeners here
+        // defer allows the script to run after the HTML is fully loaded
+        // defer is useful for scripts that do not need to block the rendering of the page
+        // You can also use the DOMContentLoaded event to ensure the DOM is fully loaded before
+        // executing your script
+        // defer is a good practice for performance optimization
+        // You can also use the async attribute if you want the script to be executed as soon as it is downloaded,
+        // but this may not guarantee the order of execution if there are multiple
     </script>
+    
 </head>
 <body>
     
